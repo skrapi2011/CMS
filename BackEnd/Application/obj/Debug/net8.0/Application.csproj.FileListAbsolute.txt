@@ -1,0 +1,16 @@
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\bin\Debug\net8.0\Application.deps.json
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\bin\Debug\net8.0\Application.dll
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\bin\Debug\net8.0\Application.pdb
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\bin\Debug\net8.0\Domain.dll
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\bin\Debug\net8.0\Domain.pdb
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.dll
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\refint\Application.dll
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\Application.pdb
+C:\1 Artem`s Folder\git\CMS\BackEnd\Application\obj\Debug\net8.0\ref\Application.dll
