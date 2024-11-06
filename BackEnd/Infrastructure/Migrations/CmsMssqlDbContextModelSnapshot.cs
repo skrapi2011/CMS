@@ -22,6 +22,75 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Application.Databases.Relational.Models.Courses.Course", b =>
+                {
+                    b.Property<Guid>("CourseId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("NEWID()");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Path")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("TeacherId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("CourseId")
+                        .HasName("Application.Databases.Relational.Models.Courses.Course_pk");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("Courses");
+                });
+
+            modelBuilder.Entity("Application.Databases.Relational.Models.Courses.CourseMeet", b =>
+                {
+                    b.Property<Guid>("CourseTimeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("NEWID()");
+
+                    b.Property<Guid>("CourseId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("End")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Start")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("CourseTimeId")
+                        .HasName("Application.Databases.Relational.Models.Courses.CourseMeet_pk");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("CourseTimes");
+                });
+
+            modelBuilder.Entity("Application.Databases.Relational.Models.Groups.Group", b =>
+                {
+                    b.Property<Guid>("GroupId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("NEWID()");
+
+                    b.HasKey("GroupId")
+                        .HasName("Application.Databases.Relational.Models.Groups.Group_pk");
+
+                    b.ToTable("Groups");
+                });
+
             modelBuilder.Entity("Application.Databases.Relational.Models.Users.Admin", b =>
                 {
                     b.Property<Guid>("AdminId")
@@ -70,6 +139,21 @@ namespace Infrastructure.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("Application.Databases.Relational.Models.Users.StudentApplication.Databases.Relational.Models.Groups.Group", b =>
+                {
+                    b.Property<Guid>("Application.Databases.Relational.Models.Groups.GroupId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("Application.Databases.Relational.Models.Users.StudentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Application.Databases.Relational.Models.Groups.GroupId", "Application.Databases.Relational.Models.Users.StudentId");
+
+                    b.HasIndex("Application.Databases.Relational.Models.Users.StudentId");
+
+                    b.ToTable("Group");
+                });
+
             modelBuilder.Entity("Application.Databases.Relational.Models.Users.Teacher", b =>
                 {
                     b.Property<Guid>("TeacherId")
@@ -100,6 +184,30 @@ namespace Infrastructure.Migrations
                         .HasName("Application.Databases.Relational.Models.Users.User_pk");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Application.Databases.Relational.Models.Courses.Course", b =>
+                {
+                    b.HasOne("Application.Databases.Relational.Models.Users.Teacher", "Teacher")
+                        .WithMany("Courses")
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("Application.Databases.Relational.Models.Courses.Course_Application.Databases.Relational.Models.Users.Teacher");
+
+                    b.Navigation("Teacher");
+                });
+
+            modelBuilder.Entity("Application.Databases.Relational.Models.Courses.CourseMeet", b =>
+                {
+                    b.HasOne("Application.Databases.Relational.Models.Courses.Course", "Course")
+                        .WithMany("CourseTimes")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("Application.Databases.Relational.Models.Courses.Course_Application.Databases.Relational.Models.Courses.CourseMeet");
+
+                    b.Navigation("Course");
                 });
 
             modelBuilder.Entity("Application.Databases.Relational.Models.Users.Admin", b =>
@@ -138,6 +246,23 @@ namespace Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("Application.Databases.Relational.Models.Users.StudentApplication.Databases.Relational.Models.Groups.Group", b =>
+                {
+                    b.HasOne("Application.Databases.Relational.Models.Groups.Group", null)
+                        .WithMany()
+                        .HasForeignKey("Application.Databases.Relational.Models.Groups.GroupId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("Application.Databases.Relational.Models.Users.StudentApplication.Databases.Relational.Models.Groups.Group_Application.Databases.Relational.Models.Groups.Group");
+
+                    b.HasOne("Application.Databases.Relational.Models.Users.Student", null)
+                        .WithMany()
+                        .HasForeignKey("Application.Databases.Relational.Models.Users.StudentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("Application.Databases.Relational.Models.Users.StudentApplication.Databases.Relational.Models.Groups.Group_Application.Databases.Relational.Models.Users.Student");
+                });
+
             modelBuilder.Entity("Application.Databases.Relational.Models.Users.Teacher", b =>
                 {
                     b.HasOne("Application.Databases.Relational.Models.Users.User", "User")
@@ -148,6 +273,16 @@ namespace Infrastructure.Migrations
                         .HasConstraintName("Application.Databases.Relational.Models.Users.User_Application.Databases.Relational.Models.Users.Teacher");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Application.Databases.Relational.Models.Courses.Course", b =>
+                {
+                    b.Navigation("CourseTimes");
+                });
+
+            modelBuilder.Entity("Application.Databases.Relational.Models.Users.Teacher", b =>
+                {
+                    b.Navigation("Courses");
                 });
 
             modelBuilder.Entity("Application.Databases.Relational.Models.Users.User", b =>

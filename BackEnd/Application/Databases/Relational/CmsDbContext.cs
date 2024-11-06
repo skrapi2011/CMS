@@ -1,4 +1,6 @@
-﻿using Application.Databases.Relational.Models.Users;
+﻿using Application.Databases.Relational.Models.Courses;
+using Application.Databases.Relational.Models.Groups;
+using Application.Databases.Relational.Models.Users;
 using Microsoft.EntityFrameworkCore;
 
 namespace Application.Databases.Relational
@@ -13,6 +15,8 @@ namespace Application.Databases.Relational
         {
         }
 
+
+        //Users Part
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<RefreshToken> RefreshTokens { get; set; }
         public virtual DbSet<Student> Students { get; set; }
@@ -20,5 +24,12 @@ namespace Application.Databases.Relational
         public virtual DbSet<Admin> Admins { get; set; }
 
 
+        //Courses Part
+        public virtual DbSet<Course> Courses { get; set; }
+        public virtual DbSet<CourseMeet> CourseTimes { get; set; }
+
+
+        //Group Part
+        public virtual DbSet<Group> Groups { get; set; }
     }
 }

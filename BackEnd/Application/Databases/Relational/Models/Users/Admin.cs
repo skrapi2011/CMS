@@ -2,9 +2,11 @@
 {
     public class Admin
     {
+        //Values
         public Guid AdminId { get; set; }
 
-        //Reference
+
+        //References
         public virtual User User { get; set; } = null!;
     }
 }

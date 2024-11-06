@@ -2,6 +2,7 @@
 {
     public class User
     {
+        //Values
         public Guid UserId { get; set; }
         public string Login { get; set; } = null!; //As Email
         public string Password { get; set; } = null!;

@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241105132110_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241105132110_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241106004643_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241106004643_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\databases\\relational\\mssql\\configurations\\users\\userefconfigurtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databases\\relational\\mssql\\configurations\\users\\userefconfigurtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\databases\\relational\\mssql\\configurations\\groups\\groupefconfigurtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databases\\relational\\mssql\\configurations\\groups\\groupefconfigurtion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\databases\\relational\\mssql\\cmsmssqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databases\\relational\\mssql\\cmsmssqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85156392-66A4-461A-8831-2798CE373606}|Application\\Application.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\application\\databases\\relational\\models\\groups\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85156392-66A4-461A-8831-2798CE373606}|Application\\Application.csproj|solutionrelative:application\\databases\\relational\\models\\groups\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85156392-66A4-461A-8831-2798CE373606}|Application\\Application.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\application\\databases\\relational\\cmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85156392-66A4-461A-8831-2798CE373606}|Application\\Application.csproj|solutionrelative:application\\databases\\relational\\cmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\databases\\relational\\mssql\\configurations\\courses\\coursemeetefconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databases\\relational\\mssql\\configurations\\courses\\coursemeetefconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85156392-66A4-461A-8831-2798CE373606}|Application\\Application.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\application\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85156392-66A4-461A-8831-2798CE373606}|Application\\Application.csproj|solutionrelative:application\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241106001639_Hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241106001639_Hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\databases\\relational\\mssql\\configurations\\users\\studentefconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databases\\relational\\mssql\\configurations\\users\\studentefconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\databases\\relational\\mssql\\cmsmssqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databases\\relational\\mssql\\cmsmssqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|c:\\1 artem\u0060s folder\\git\\cms\\backend\\infrastructure\\databases\\relational\\mssql\\configurations\\courses\\courseefconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF9E77E-5151-42FF-A925-F5A13549E93B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\databases\\relational\\mssql\\configurations\\courses\\courseefconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,27 +51,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241105132110_First.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241105132110_First.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241105132110_First.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241105132110_First.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241105132110_First.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Title": "20241106004643_third.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241106004643_third.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241106004643_third.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241106004643_third.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241106004643_third.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:21:10.541Z",
+              "WhenOpened": "2024-11-06T00:46:44.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Application\\Databases\\Relational\\Models\\Groups\\Group.cs",
+              "RelativeDocumentMoniker": "Application\\Databases\\Relational\\Models\\Groups\\Group.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Application\\Databases\\Relational\\Models\\Groups\\Group.cs",
+              "RelativeToolTip": "Application\\Databases\\Relational\\Models\\Groups\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:33:47.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CmsMssqlDbContext.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:13:12.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupEFConfigurtion.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Groups\\GroupEFConfigurtion.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Groups\\GroupEFConfigurtion.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Groups\\GroupEFConfigurtion.cs",
+              "RelativeToolTip": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Groups\\GroupEFConfigurtion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:12:05.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Configuration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Configuration.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Configuration.cs",
-              "RelativeToolTip": "Infrastructure\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "CourseMeetEFConfiguration.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseMeetEFConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseMeetEFConfiguration.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseMeetEFConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseMeetEFConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:06:55.839Z",
+              "WhenOpened": "2024-11-06T00:09:31.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseEFConfiguration.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseEFConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseEFConfiguration.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseEFConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Courses\\CourseEFConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T00:01:04.49Z",
               "EditorCaption": ""
             },
             {
@@ -78,82 +134,22 @@
               "RelativeDocumentMoniker": "Application\\Databases\\Relational\\CmsDbContext.cs",
               "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Application\\Databases\\Relational\\CmsDbContext.cs",
               "RelativeToolTip": "Application\\Databases\\Relational\\CmsDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:06:44.229Z",
+              "WhenOpened": "2024-11-05T23:58:30.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Application\\Configuration.cs",
-              "RelativeDocumentMoniker": "Application\\Configuration.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Application\\Configuration.cs",
-              "RelativeToolTip": "Application\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABKAAAA",
+              "Title": "20241106001639_Hand.cs",
+              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241106001639_Hand.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241106001639_Hand.cs",
+              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Migrations\\20241106001639_Hand.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241106001639_Hand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:06:25.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CmsMssqlDbContext.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Databases\\Relational\\MsSql\\CmsMssqlDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:02:33.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserEFConfigurtion.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\UserEFConfigurtion.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\UserEFConfigurtion.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\UserEFConfigurtion.cs",
-              "RelativeToolTip": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\UserEFConfigurtion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T12:56:13.533Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "7eda6b1e-977e-44b2-b399-4802912a09d0",
-        "Display": 0,
-        "X": 2080,
-        "Y": 385,
-        "Width": 1059,
-        "Height": 1022,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentEFConfiguration.cs",
-              "DocumentMoniker": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\StudentEFConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\StudentEFConfiguration.cs",
-              "ToolTip": "C:\\1 Artem\u0060s Folder\\git\\CMS\\BackEnd\\Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\StudentEFConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Databases\\Relational\\MsSql\\Configurations\\Users\\StudentEFConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:04:45.566Z",
+              "WhenOpened": "2024-11-06T00:16:39.757Z",
               "EditorCaption": ""
             }
           ]
